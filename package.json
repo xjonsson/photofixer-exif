@@ -1,0 +1,27 @@
+{
+  "name": "photofixer-exif",
+  "version": "0.0.1",
+  "description": "PhotoFixer - Exif takes your unsorted random SD Card dumps for ABC001 and converts them all into a nicely named and organized folders. Enjoy",
+  "author": "Nick Jonsson https://github.com/xjonsson/",
+  "contributors": [{
+  "name": "Nick Jonsson",
+  "email": "https://github.com/xjonsson/"
+}],
+  "bugs": {
+  "url": "https://github.com/xjonsson/photofixer-exif/issues"
+},
+  "keywords": [
+  "node",
+  "exif",
+  "photo",
+  "renamer",
+  "fixer"
+],
+  "dependencies": {
+    "exif": "0.6.0",
+    "mkdirp": "0.5.1",
+    "prompt": "1.0.0",
+    "recursive-readdir": "1.3.0"
+  },
+  "license": "MIT"
+}

@@ -39,6 +39,8 @@ Specify your photographers name
 ### Issues
 
 * I have not added every camera that exists, only the ones which i have played with. If its giving you a weird ending then just go and add another case into the code, it should spit out the EXIF information that is making the name weird if you check the console.
+* I fix sequencing by adding 1 if the file exists. This works for the most part, but if your creating a dump from GoPro with 30images a second, you might want to add an additional number at the end.
+* I have run this with over 65,000 photos and organized the last 14 years worth with this in a few days, it has worked for me but i take no responsibility if you lose your photos. Always do a copy into the process folder not your originals just in case =]
 
 
 ### Future

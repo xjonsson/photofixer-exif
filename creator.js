@@ -68,6 +68,9 @@ function fixFiles(file) {
           case 'GT-N7000':
             camera = 'gt9700'
             break;
+          case 'SM-G900F':
+            camera = 'sg5'
+            break;
           case 'Canon PowerShot G10':
             camera = 'g10'
             break;
